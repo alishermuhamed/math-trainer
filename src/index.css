@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #252C30;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
