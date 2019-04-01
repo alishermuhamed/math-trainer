@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "types": [
+      "jest"
+    ],
     "target": "esnext",
     "outDir": "./dist/",
     "strictNullChecks": true,
@@ -28,6 +31,6 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "importHelpers": true
-  }
+    "importHelpers": true,
+  },
 }
