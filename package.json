@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "author": "alishermuhamed",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alishermuhamed/math-trainer"
+  },
   "scripts": {
     "test": "jest",
     "check-types": "tsc",
