@@ -1,20 +1,12 @@
 import * as React from 'react';
-import Header from './components/header';
-import { Switch, Route } from 'react-router-dom';
-import Main from './pages/main';
-import Game from './pages/game';
-import Settings from './pages/settings';
-import Stats from './pages/stats';
+import Routes from './routes';
 
 const App: React.FC = (): JSX.Element => (
   <React.Fragment>
-    <Header />
-    <Switch>
-      <Route exact={true} path="/" component={Main} />
-      <Route path="/game" component={Game} />
-      <Route path="/settings" component={Settings} />
-      <Route path="/stats" component={Stats} />
-    </Switch>
+    <div className="header">MATH TRAINING</div>
+    <div className="body">
+      <Routes />
+    </div>
   </React.Fragment>
 );
 
