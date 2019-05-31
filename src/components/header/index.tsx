@@ -6,7 +6,7 @@ import './style.css';
 const Header: React.FC<RouteComponentProps> = (props: RouteComponentProps): JSX.Element => (
   <div className="header">
     {props.location.pathname === '/' ? (
-      'MATH TRAINING'
+      'MATH TRAINER'
     ) : (
       <Link to="/" className="back-link">
         BACK
