@@ -14,20 +14,3 @@ html, body {
   justify-content: center;
   align-items: center;
 }
-
-.large-text {
-  font-size: xx-large;
-}
-
-.user-input {
-  margin-top: 2%;
-  font-size: xx-large;
-  color: #ffffff;
-  text-align: center;
-  background: #252C30;
-  border: none;
-}
-
-.user-input:focus {
-  outline: none;
-}
